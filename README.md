@@ -19,8 +19,7 @@ This application can be installed on any Smartphone/Tablet/Desktops which is in 
 
 
                                       
-   ![alt text](https://github.com/fisforfaheem/social_media_application_flutter/blob/main/images/intro-image.jpeg)
-    ![alt text](https://github.com/fisforfaheem/social_media_application_flutter/blob/main/images/all.jpg)   
+ (https://github.com/fisforfaheem/social_media_application_flutter/blob/main/images/all.jpg)   
     ![alt text](https://j.gifs.com/ywoV7V.gif) 
     
 <!--    ![alt text](https://github.com/fisforfaheem/social_media_application_flutter/blob/main/images/image2.jpeg)   
