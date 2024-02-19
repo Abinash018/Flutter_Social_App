@@ -1,36 +1,103 @@
+# Social Media App
 
+A simple social media project app made with Flutter wrapped in simple and beautiful design. 
 
+## Stack
 
+* Flutter as front end
 
+* Node.js as backend server
 
-<h3 align="center">A Social App Built Using FLutter.</h3>
-<h32 align="start">The main objective of this application is to provide a single platform for the Students/Teachers of University/College to communicate, moreover the it provides the following features to the users:<br> <br>
-  Students and Teachers in my University should be able to communicate with one another seamlessly and effortlessly, without getting bogged down in unnecessary or irrelevant platforms and ways to accomplish something that is simple and easily managed.<br><br>
+* PostgreSQL as database
 
-  My idea is to bring the teachers and students together to build a community that transforms them into a productive and effective knowledgeable beings that work together to solve problems, get right and accurate information and learn about important happenings in such a way that they become pioneers and never feel lost in any way.<br><br>
---	Posts abouts the Events happening in the University/College <br>
---	Group communication among the students and teachers or administration.<br>
---	Students and employees can view their time tables, Date Sheet, Result.<br>
---	Parents can view the activities inside university or their child's class<br>
---	Teachers can view or inform specific class about specific event<br>
-  <br>
-This application can be installed on any Smartphone/Tablet/Desktops which is in the reach of the user thus providing the full features of a Social App.
-.</h2>
+* Firebase as authentication medium and cloud storage for videos
 
+* Appwrite as cloud storage for images
 
-                                      
- (https://github.com/fisforfaheem/social_media_application_flutter/blob/main/images/all.jpg)   
-    ![alt text](https://j.gifs.com/ywoV7V.gif) 
-    
-<!--    ![alt text](https://github.com/fisforfaheem/social_media_application_flutter/blob/main/images/image2.jpeg)   
-   ![alt text](https://github.com/fisforfaheem/social_media_application_flutter/blob/main/images/image3.jpeg)
-   ![alt text](https://github.com/fisforfaheem/social_media_application_flutter/blob/main/images/image4.jpeg)
-   ![alt text](https://github.com/fisforfaheem/social_media_application_flutter/blob/main/images/image5.jpeg)
-    -->
- 
-   
-   
-  
-src="https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg" alt="flutter" width="60" height="60"/>   </p>
+* Custom class as primary state management
 
+## Setting up Firebase
 
+* Create a Firebase project and then create a Firebase app
+
+* Initialize authentication by enabling `email and password` authentication
+
+* Initialize cloud storage by setting up Firebase Storage and allowing permissions
+
+* Download the `google-services.json` file from the app and move it to the `android/app/` directory
+
+* Add the package `flutterfire_cli` to your project then run `flutterfire configure`
+
+* Select your project and `android` option then `firebase_options.dart` file will be created. Move it to the `lib/firebase` folder.
+
+## Setting up PostgreSQL
+
+You need to have basic knowledge of PostgreSQL and have PostgreSQL installed. It's also recommended to have pgAdmin 4 installed as well. Whole code is in [here](https://github.com/joec05/social-media-app-pgsql). Each file contains code for each database, from creating schemas, tables to functions.
+
+## Setting up Express.ts
+
+You can download it [here](https://github.com/joec05/social-media-app-expressjs-server). Run `npm run build` if you modified any Typescript code, and run `npm start` to start or restart the server. 
+
+Once you have set up all of these the app is ready to use. 
+
+## Features
+
+* Skeleton loading
+
+* Sign up and login
+
+* Email verification during sign up
+
+* Uploading posts and comments
+
+* Uploading images and videos
+
+* Tagging other users and hashtags
+
+* Deleting posts and comments
+
+* Editing posts and comments
+
+* Liking posts and comments
+
+* Bookmarking posts and comments
+
+* Viewing comments of a post or a comment
+
+* Search posts and users
+
+* Lock account / set as private
+
+* Mute other users
+
+* Block other users
+
+* Notifications
+
+* Private message
+
+* Group message
+
+* Edit group profile
+
+* Add other users to group
+
+* Auto login
+
+## Basic preview of the application
+
+![Social media app preview](https://github.com/joec05/files/blob/main/social_media_app/demo_1.png?raw=true "Social media app preview 1")
+
+![Social media app preview](https://github.com/joec05/files/blob/main/social_media_app/demo_2.png?raw=true "Social media app preview 2")
+
+## Things to fix and improve
+
+* Database still cannot handle 1 million rows yet
+
+* Adding more options of files to upload such as audio and PDF
+
+* Adding push notifications
+
+* Fix the nested scrolling bug in the profile page 
+
+* Make improvements to cloud storage management
