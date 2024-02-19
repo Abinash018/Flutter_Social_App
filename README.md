@@ -32,13 +32,6 @@ This application can be installed on any Smartphone/Tablet/Desktops which is in 
    
    
   
-
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://fisforfaheem.medium.com/" target="blank"><img align="center" src="https://cdn4.iconfinder.com/data/icons/social-media-2210/24/Medium-512.png" alt="" height="80" width="80" /></a>
-</p>
-
-<h3 align="left">Languages and Tools:</h3>
-<p align="left">  <a href="https://flutter.dev" target="_blank"> <img src="https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg" alt="flutter" width="60" height="60"/>   </p>
+src="https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg" alt="flutter" width="60" height="60"/>   </p>
 
 
